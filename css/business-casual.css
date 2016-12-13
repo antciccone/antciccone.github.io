@@ -195,16 +195,25 @@ footer p {
 }
 
 .first-years-right {
-  padding-left: 650px;
+  padding-left: 70%;
   font-size: 15px
 }
 
 .second-years-right {
-  padding-left: 560px;
+  padding-left: 65%;
+  font-size: 15px
+}
+.third-years-right {
+  padding-left: 63%;
   font-size: 15px
 }
 
-.third-years-right {
-  padding-left: 580px;
+.fourth-years-right {
+  padding-left: 60%;
   font-size: 15px
+}
+
+.line {
+  max-width: 1100px;
+  border-color: #999999;
 }
