@@ -193,3 +193,18 @@ footer p {
         clear: both;
     }
 }
+
+.first-years-right {
+  padding-left: 650px;
+  font-size: 15px
+}
+
+.second-years-right {
+  padding-left: 560px;
+  font-size: 15px
+}
+
+.third-years-right {
+  padding-left: 580px;
+  font-size: 15px
+}
