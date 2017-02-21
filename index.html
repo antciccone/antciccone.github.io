@@ -1,114 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
-
-
 <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>Parallax Template - Materialize</title>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Anthony's Webpage</title>
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link href="css/ac.css" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-2.1.3.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
-
-    <script src="https://use.fontawesome.com/51d8da5d08.js"></script>
-    <script src="https://use.fontawesome.com/51d8da5d08.js"></script>
-  </head>
-
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <script src="https://use.fontawesome.com/51d8da5d08.js"></script>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
 <body>
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo">Anthony Ciccone</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#">About Me</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="img/AC_RESUME.pdf" target="_blank">Resume</a></li>
+        <li><a href="mailto:aciccone2014@gmail.com">Email me</a></li>
 
-  <nav class="navbar navbar-default">
-    <div class="navbar-header">
-               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                 <span class="sr-only">Toggle navigation</span>
-                 <span class="icon-bar"></span>
-                   <span class="icon-bar"></span>
-               </button>
-             </div>
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav">
-          <li><a href="mailto:aciccone2014@gmail.com">Email</a></li>
-        </ul>
-        <ul style="padding-top: 15px;" class="nav navbar-nav navbar-right">
-          <li><span class="fa-stack fa-lg"><a href="https://www.linkedin.com/in/nycaciccone"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></span></li>
-          <li><span class="fa-stack fa-lg"><a href="https://medium.com/@cicconenyc"><i class="fa fa-medium" aria-hidden="true"></i></a></span></li>
-          <li><span class="fa-stack fa-lg"><a href="https://github.com/antciccone"><i class="fa fa-github" aria-hidden="true"></i></a></span></li>
-          </li>
-        </ul>
-      </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="#">Navbar Link</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
   </nav>
 
-<div class="container">
-  <img src="img/me2.png" alt="" class="me">
-
-  <div>
-    <h1 class="name">Anthony Ciccone</h1>
-  </div>
-
-  <div>
-      <center><p class="intro">I am a Software Developer in NYC with a background in tech recruitment where I quickly found a passion for software development!</p></center>
-  </div>
-  <br>
-  <div>
-    <center><h4><strong>Learn More About Me</strong></h4></center>
-  </div>
-</div>
-<br>
-<div class="container">
-
-    <div class="row">
-        <div class="col-md-4">
-          <div class="panel panel-default text-center">
-                 <div class="panel-heading">
-                   <img src="img/nyc.jpg" />
-                 </div>
-                 <div class="panel-body">
-                     <h4> <a href="about.html">About Me</a> <h4>
-                 </div>
-             </div>
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center teal-text text-lighten-2">Software Developer</h1>
+        <div class="row center">
+          <h5 class="header col s12 light">I am a Software Developer in NYC with a background in tech recruitment where I quickly found a passion for software development!</h5>
         </div>
-            <div class="col-md-4">
-              <div class="panel panel-default text-center">
-                     <div class="panel-heading">
-                       <img src="img/project2.jpg" />
-                     </div>
-                     <div class="panel-body">
-                         <h4> <a href="projects.html">Projects</a><h4>
-                     </div>
-                 </div>
-            </div>
-            <div class="col-md-4">
-              <div class="panel panel-default text-center">
-                     <div class="panel-heading">
-                       <img src="img/resume.jpg" />
-                     </div>
-                     <div class="panel-body">
-                         <h4><a href="resume.html">Resume</a> <h4>
-                     </div>
-                 </div>
-            </div>
+        <br><br>
+
+      </div>
+    </div>
+    <div class="parallax"><img src="img/c.jpg" alt="Unsplashed background img 1"></div>
+  </div>
+
+
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="fa fa-desktop" aria-hidden="true"></i></h2>
+            <h5 class="center">My Projects</h5>
+
+            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
           </div>
         </div>
 
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">group</i></h2>
+            <h5 class="center">User Experience Focused</h5>
 
-<br>
+            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+          </div>
+        </div>
 
-<br>
-<footer class="footer">
-  <div class="container">
-    <center>By Anthony Ciccone | aciccone2014@gmail.com</i></center>
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
+            <h5 class="center">Easy to work with</h5>
+
+            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
   </div>
-</footer>
-<br>
-</body>
 
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>About Me</h4>
+          <p class="left-align light"></p>
+            <div class="col s6">
+              I am a former Tech Recruiter turned Software Developer. I really enjoy pairing and working in teams. I bring great energy and positivity to a group and value honest feedback and collaboration. I truly value empathy, honesty, resilience, hard work and kindness. I believe that these values have gotten me to where I am today and I am hopeful they will guide me to where I want to go.
+              Working alongside Software Developers as a Tech Recruiter at Bonobos I quickly realized my interest in the field. I enjoy solving difficult problems and getting to the root of how things work.
+              I hope to take my software development skills that I have gained to an organization that values growth, leadership, and honesty. I believe that I can be a great addition to any team!
+            </div>
+            <div class="col s6">
+              <img class="my-pic"src="img/me.jpg" alt="">
+            <div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+</div>
+
+
+  <footer class="page-footer teal">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Company Bio</h5>
+          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+
+
+        </div>
+
+
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Anthony Ciccone</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
 </html>
