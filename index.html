@@ -76,59 +76,90 @@
     </div>
     <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
   </div>
+
   <div class="container">
     <div class="section">
-      <!--   Icon Section   -->
       <div class="row">
         <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="fa fa-desktop" aria-hidden="true"></i></h2>
-            <h5 class="center">Project one</h5>
-            <p class="light"></p>
+        <div class="card">
+            <div class="card-image">
+              <img src="img/littleshop.jpg">
+            </div>
+            <div class="card-action">
+            <a href="#modal1">Ribbit</a>
+            </div>
           </div>
         </div>
         <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">group</i></h2>
-            <h5 class="center">Project Two</h5>
-            <p class="light"></p>
+        <div class="card">
+            <div class="card-image">
+              <img src="img/api.png">
+            </div>
+            <div class="card-action">
+            <a href="#modal2">API Curious</a>
+            </div>
           </div>
         </div>
         <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
-            <h5 class="center">Project Three</h5>
-            <p class="light"></p>
+        <div class="card">
+            <div class="card-image">
+              <img src="img/project.png">
+            </div>
+            <div class="card-action">
+            <a href="#modal3">Vicarious.li</a>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
   <footer class="page-footer teal">
-    <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">Company Bio</h5>
-          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
-        </div>
-      </div>
-    </div>
-    <div class="footer-copyright">
-      <div class="container">
-      <center>Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Anthony Ciccone | <i class="fa fa-github" aria-hidden="true"></i> | <i class="fa fa-linkedin" aria-hidden="true"></i></a></center>
+      <div class="container foot">
+      <span class="test"><center>Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Anthony Ciccone | <i class="fa fa-github" aria-hidden="true"></i> | <i class="fa fa-linkedin" aria-hidden="true"></i></a></center></span>
       </div>
     </div>
   </footer>
 
+  <!-- modals -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <center><h4><a href="https://ribbit-little-shop.herokuapp.com/">Ribbit App</a>  |  <a href="https://github.com/antciccone/little-shop-1608">Github Repo</a></h4></center>
+        <p>A bunch of text</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Thanks for looking!</a>
+    </div>
+  </div>
+
+  <div id="modal2" class="modal">
+    <div class="modal-content">
+      <h4>this is for two</h4>
+      <p>A bunch of text</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Thanks for looking!</a>
+    </div>
+  </div>
+
+  <div id="modal3" class="modal">
+    <div class="modal-content">
+      <h4>this is for two</h4>
+      <p>A bunch of text</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Thanks for looking!</a>
+    </div>
+  </div>
 
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
+
   <script>
-  $('#myModal').on('shown.bs.modal', function () {
-  $('#myInput').focus()
-})
+  $(document).ready(function(){
+    $('.modal').modal();
+  });
   </script>
 
   </body>

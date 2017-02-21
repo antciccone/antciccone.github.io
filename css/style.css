@@ -61,3 +61,12 @@ footer.page-footer {
   height: 270px;
   border-radius: 5%;
 }
+
+.card-image img {
+  height: 250px;
+  width: 250px;
+}
+
+.container {
+  width: 80%;
+}
