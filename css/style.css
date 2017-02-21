@@ -70,3 +70,12 @@ footer.page-footer {
 .container {
   width: 80%;
 }
+
+footer {
+  background-color: #D3D3D3;
+}
+
+i {
+  padding-top: 10px;
+  padding: 7px;
+}
