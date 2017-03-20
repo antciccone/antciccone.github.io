@@ -1,8 +1,23 @@
 
+@media only screen and (max-device-width: 400px) {
+  .mobile-img {
+    width: 100%;
+    height: 30%;
+  }
+
+
+
+  .desktop {
+    display: none;
+  }
+
+}
+
 
  html, body {
    padding: 0;
    margin: 0;
+
  }
 
  #wrapper {
