@@ -2,15 +2,25 @@
 @media only screen and (max-device-width: 400px) {
   .mobile-img {
     width: 100%;
-    height: 30%;
+    height: 40%;
   }
 
-
+  .modal-pic {
+    display: none !important;
+  }
 
   .desktop {
     display: none;
   }
 
+  .mobile_device_380px {
+    display: inline !important;
+  }
+
+}
+
+.mobile_device_380px {
+  display: none;
 }
 
 
