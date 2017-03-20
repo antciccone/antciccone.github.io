@@ -1,81 +1,80 @@
-/* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
 
-nav ul a,
-nav .brand-logo {
-  color: #444;
+
+ html, body {
+   padding: 0;
+   margin: 0;
+ }
+
+ #wrapper {
+   position: relative;
+   width: 100%;
+   height: 100%;
+   margin: auto;
+   padding: 0;
+ }
+
+ #leftmenu, img {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 50%;
+   height: 100%;
+ }
+
+ #maincontent {
+   float: right;
+   left: 50%;
+   width: 50%;
+   height: 100%;
+ }
+
+ h2 {
+   font-family: 'Montserrat';
+   text-transform: uppercase;
+   text-align: center;
+ }
+
+ .about-me {
+   margin: 10%;
+   line-height: 1.75em;
+   font-size: 16px;
+   font-family: 'Source Sans Pro', arial, sans-serif;
+ }
+
+ .fa-github {
+   margin-bottom: 50px;
+ }
+
+ i {
+   color: #D8D8D8;
+   padding: 5px;
+ }
+
+ p, li {
+   font-family: 'Source Sans Pro', arial, sans-serif;
+   font-size: 16px;
+
+ }
+
+ .menu {
+  color: white;
+  position: absolute;
+  width: 100%;
+ }
+
+ #sidenav-overlay {
+   opacity: 0 !important
+ }
+
+
+.modal {
+  width: 75% !important;
+  height: 75% !important;
 }
 
-p {
-  line-height: 2rem;
-}
+.modal-pic {
+  width: 50%;
+  height: 50%;
+  margin-top: 15%;
 
-.button-collapse {
-  color: #26a69a;
-}
-
-.parallax-container {
-  min-height: 380px;
-  line-height: 0;
-  height: auto;
-  color: rgba(255,255,255,.9);
-}
-  .parallax-container .section {
-    width: 100%;
-  }
-
-@media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
-  #index-banner .section {
-    top: 10%;
-  }
-}
-
-@media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
-  }
-}
-
-.icon-block {
-  padding: 0 15px;
-}
-.icon-block .material-icons {
-  font-size: inherit;
-}
-
-footer.page-footer {
-  margin: 0;
-}
-
-.my-pic {
-  width: 250px;
-  height: 270px;
-  border-radius: 5%;
-}
-
-.card-image img {
-  height: 250px;
-  width: 250px;
-}
-
-.container {
-  width: 80%;
-}
-
-footer {
-  background-color: #D3D3D3;
-}
-
-i {
-  padding-top: 10px;
-  padding: 7px;
 }
